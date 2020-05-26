@@ -15,5 +15,11 @@ $ docker-compose up -e DATA_SOURCE={yourdbuser}:{yourdbpass}@({yourdbhost}:{your
 ### 해볼 것 
 - Grafana 연동
 - MySQL 상태 모니터링 (Grafana)
+    - CPU Usage
+    - Memory Usage
+    - Slow Query log
+    - Connection count (maximum, active)
 - Server 상태 모니터링 (Grafana)
+    - CPU usage
+    - Memory Usage
 - 뭐 할지 생각 아마 k8s에 적용
